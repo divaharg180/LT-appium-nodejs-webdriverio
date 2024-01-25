@@ -129,8 +129,8 @@ You need to update your capabilities in `*.config.js` files. In this sample proj
 
 ```javascript title="ios/ios-single.conf.js"
 exports.config = {
-  user: process.env.LT_USERNAME || "YOUR_USERNAME",
-  key: process.env.LT_ACCESS_KEY || "YOUR_ACCESS_KEY",
+  user: process.env.LT_USERNAME || "divahar",
+  key: process.env.LT_ACCESS_KEY || "uAsYjKmU1MUvxm8MdwKUtZufxGptw30jvSvx8oupdRzspU8gxB",
 
   updateJob: false,
   //highlight-next-line
@@ -175,8 +175,8 @@ exports.config = {
 
 ```javascript title="android/android-single.conf.js"
 exports.config = {
-  user: process.env.LT_USERNAME || "YOUR_USERNAME",
-  key: process.env.LT_ACCESS_KEY || "YOUR_ACCESS_KEY",
+  user: process.env.LT_USERNAME || "divahar",
+  key: process.env.LT_ACCESS_KEY || "uAsYjKmU1MUvxm8MdwKUtZufxGptw30jvSvx8oupdRzspU8gxB",
 
   updateJob: false,
   //highlight-next-line
